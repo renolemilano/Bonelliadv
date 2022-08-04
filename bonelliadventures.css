@@ -1,0 +1,183 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#bloc_page{
+    width: 900px;
+    margin: auto;
+}
+
+.reseaux1 ul
+{
+    background-color: rgb(255,190,159);
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.reseaux1 li
+{
+    margin-right: 10px;
+    margin-bottom: 1px;
+    margin-top: 5px;
+}
+
+.logo
+{
+    display:flex;
+    justify-content: center;
+}
+
+.menu ul
+{
+    list-style: none;
+    display: flex;
+    transition : 2s;
+}
+
+.logohome
+{
+    display:flex;
+    align-items: left;
+    flex:1;
+}
+
+.liecrit
+{
+    display:flex;
+    flex:8;
+}
+
+.liecrit li
+{
+    margin-right: 40px;
+    justify-content: center;
+    margin-top: 17px;
+}
+
+.menu a
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 150%;
+    color:black;
+    text-decoration: none;
+}
+
+/* Banniere */
+
+.banniereimage
+{
+    height: 550px;
+    background: url("images/derniereaventure.jpg") no-repeat;
+    position: relative;
+    z-index: 1;
+}
+
+.bannieretitre
+{
+    position: absolute;
+    bottom: 0;
+    width: 900px;
+    height: 50px;
+    background-color: rgba(207, 176, 125, 0.747);
+    padding-top:7px;
+    z-index: 2;
+}
+
+.bannieretitre a
+{
+    padding-top: 10px;
+    margin-left: 180px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.textesousphoto
+{
+    text-align: center;
+    border-bottom: solid rgb(189, 178, 178);
+    margin-bottom: 4px;
+}
+.textesousphoto a
+{
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(247, 204, 97);
+
+}
+
+.bloc_1
+{
+    display: flex;
+
+}
+
+.bloc_2
+{
+    flex-direction: column;
+    align-content: center;
+    margin-left: 15px;
+    margin-top: 125px;
+    text-align: center;
+}
+
+h1
+{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border-top: solid rgb(189, 178, 178);
+    padding-top: 35px;
+    margin-top: 0px;
+}
+
+#reseaux
+{
+    margin-top: 50px;
+    background-color: rgb(23,101,126);
+    border-radius: 15px;
+}
+
+h3
+{
+    color: white;
+    text-decoration:underline;
+    text-align: center;
+    padding-top: 25px;
+}
+
+#reseaux ul
+{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+
+#reseaux li
+{
+    margin-right: 10px;
+}
+
+p{
+    text-align: center;
+    font-size: small;
+}
+
+/* ------------------------JAVASCRIPT ------------------------*/
+
+
+.anim-menu {
+    background: white;
+    position : fixed;
+    z-index: 3;
+    top : 0;
+    width: 900px;
+}
+
+.menu{
+    transition : 3s;
+}
